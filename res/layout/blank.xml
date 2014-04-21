@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/layoutBlank"
+				android:orientation="vertical"
+				android:layout_width="800px"
+				android:layout_height="480px"
+				android:background="@android:color/black">
+</RelativeLayout>

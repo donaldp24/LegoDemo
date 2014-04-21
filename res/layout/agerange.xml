@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/layout_agerange"
+				android:orientation="vertical"
+				android:layout_width="800px"
+				android:layout_height="480px"
+				android:background="@drawable/background"
+		>
+	<!-- Common Items -->
+	<ImageView
+			android:layout_marginLeft="290px"
+			android:layout_marginTop="0px"
+			android:layout_width="220px"
+			android:layout_height="180px"
+			android:background="@drawable/legomark"
+			/>
+	<Button
+			android:id="@+id/btn_back"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="400px"
+			android:layout_width="164px"
+			android:layout_height="80px"
+			android:background="@drawable/common_btn_back"
+			/>
+
+
+	<android.support.v4.view.ViewPager
+			android:id="@+id/viewpager_cards"
+			android:layout_marginLeft="100px"
+			android:layout_marginTop="180px"
+			android:layout_width="600px"
+			android:layout_height="130px">
+	</android.support.v4.view.ViewPager>
+
+	<ImageView
+			android:layout_marginLeft="302px"
+			android:layout_marginTop="394px"
+			android:layout_width="230px"
+			android:layout_height="58px"
+			android:background="@drawable/agerange_agerange"
+			/>
+</RelativeLayout>
